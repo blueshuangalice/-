@@ -1,0 +1,188 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?t0jldo');
+	src: url('../fonts/icomoon.eot?t0jldo#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?t0jldo') format('truetype'),
+		url('../fonts/icomoon.woff?t0jldo') format('woff'),
+		url('../fonts/icomoon.svg?t0jldo#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.style_red {
+	color: #c81623;
+}
+
+
+header {
+	height: 84px;
+	line-height: 84px;
+	border-bottom: 2px solid #c81623;
+}
+
+header a {
+	display: block;
+	width: 189px;
+}
+
+.registerarea {
+	height: 521px;
+	margin-top: 20px;
+	border: 1px solid #dfdfdf;
+}
+
+.mod_title {
+	height: 42px;
+	padding: 0 10px;
+	border-bottom: 1px solid #dfdfdf;
+	line-height: 41px;
+	background-color: #ececec;
+}
+
+.mod_title h3 {
+	float: left;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.mod_title .login {
+	float: right;
+	font-size: 14px;
+}
+
+.reg_form {
+	width: 600px;
+	margin: 50px auto;
+}
+
+.reg_form ul li {
+	height: 50px;
+	line-height: 50px;
+}
+
+.reg_form ul li label {
+	display: inline-block;
+	width: 91px;
+	text-align: right;
+}
+
+.reg_form ul li input[type='text'],
+.reg_form ul li input[type='password'] {
+	width: 240px;
+	height: 36px;
+	padding-left: 10px;
+	border: 1px solid #999999;
+}
+
+.reg_form ul li .error {
+	padding-left: 10px;
+	color: #df3033;
+}
+
+.error_icon,
+.success_icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	vertical-align: middle;
+
+}
+
+.error_icon {
+	background: url('../images/error.png') no-repeat;
+}
+
+.reg_form ul li .success {
+	padding-left: 10px;
+	color: green;
+}
+
+.success_icon {
+	background: url('../images/success.png') no-repeat;
+}
+
+.reg_form ul .safe {
+	height: 30px;
+	padding-left: 179px;
+	line-height: 30px;
+}
+
+.reg_form ul .safe em {
+	padding: 0 10px;
+	color: #fff;
+}
+
+.safe .weak {
+	background-color: #de1111;
+}
+
+.safe .middle {
+	background-color: #f79100;
+}
+
+.safe .strong {
+	background-color: #40b83f;
+}
+
+.reg_form ul .agreenItem {
+	padding-left: 95px;
+	vertical-align: middle;
+}
+
+.agreenItem input {
+	vertical-align: middle;
+}
+
+.reg_form ul .agreenItem label {
+	width: 220px;
+	text-align: left;
+}
+
+.agreenItem a {
+	color: #1ba1e6;
+}
+
+.submitRegister input[type='submit'] {
+	width: 200px;
+	height: 34px;
+	margin-left: 117px;
+	margin-top: 20px;
+	background-color: #c81623;
+	color: #fff;
+}
+
+.mod_copyright {
+	padding: 21px 0 0 70px;
+	text-align: center;
+}
+
+.mod_copyright ul {
+	overflow: hidden;
+}
+
+.mod_copyright ul li {
+	float: left;
+}
+
+.mod_copyright ul li a {
+	display: block;
+	border-right: 1px solid #999999;
+	padding: 0 15px;
+
+}
+
+.mod_copyright ul .lastLi a {
+	border-right: 0;
+}
+
+.mod_copyright .copyright {
+	margin-top: 10px;
+	line-height: 20px;
+}

@@ -1,0 +1,156 @@
+.nav {
+	overflow: hidden;
+}
+
+.secondkill {
+	position: absolute;
+	left: 185px;
+	top: 42px;
+	border-left: 1px solid #b1191a;
+	/* padding: 3px 0 3px 14px; */
+	width: 85px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+}
+
+.sk_list {
+	float: left;
+}
+
+.sk_list ul li {
+	float: left;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+}
+
+.sk_list ul li a {
+	display: block;
+	padding: 0 25px;
+	font-size: 16px;
+	color: #000000;
+	font-weight: 700;
+}
+
+.sk_con {
+	float: left;
+}
+
+.sk_con ul li {
+	float: left;
+	/* height: 44px; */
+	text-align: center;
+}
+
+.sk_con ul li a {
+	display: block;
+	line-height: 47px;
+	padding: 0 22px;
+	font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+	font-family: 'icomoon';
+	content: '\e925';
+	margin-left: 6px;
+}
+
+.sk_container .sk_hd {
+	height: 120px;
+}
+
+.sk_container .sk_hd img {
+	height: 100%;
+	height: 100%;
+}
+
+.sk_bd {
+	margin: 25px 0;
+	
+}
+
+.sk_bd ul li {
+	
+	float: left;
+	width: 290px;
+	height: 460px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid transparent;
+	overflow: hidden;
+}
+.sk_bd ul li:hover{
+	border: 1px solid #e60012;
+}
+
+.sk_bd ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.sk_bd ul li a img {
+	width: 290px;
+	height: 289px;
+}
+
+.sk_bd .proinfo {
+	width: 290px;
+	height: 119px;
+	padding: 10px 10px;
+}
+
+.sk_bd .proinfo h3 {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.proinfo .price {
+	font-size: 22px;
+	color: #e60012;
+}
+
+.proinfo .price span {
+	font-size: 15px;
+}
+
+.proinfo .mktPrice {
+	text-decoration: line-through;
+	color: #a4a4a4;
+}
+
+.proinfo .salesNum {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.proinfo .salesNum .progressBar {
+	display: inline-block;
+	width: 134px;
+	height: 17px;
+	margin: 0 5px;
+	border: 1px solid #e60012;
+	border-radius: 8px;
+	overflow: hidden;
+	vertical-align: middle;
+	
+}
+
+.progressBar .barbd {
+	width: 80%;
+	height: 16px;
+	background-color: #e60012;
+	transition: all .5s;
+}
+
+.progressBar:hover .barbd {
+	width: 100%;
+}
+.sk_bd ul li a button{
+	width: 288px;
+	height: 50px;
+	background-color: #b1191a;
+	color: #fff;
+	font-size: 20px;
+}

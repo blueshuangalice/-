@@ -1,0 +1,133 @@
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.current{
+	color: #c81623;
+}
+
+header{
+	height: 82px;
+	line-height: 82px;
+}
+.loginarea{
+	height: 485px;
+	background-color: #7e00ff;
+}
+
+.loginarea .wrapper{
+	position: relative;
+	height: 484px;
+	background: url('../images/loginbg.png') no-repeat;
+}
+
+.loginarea .login_form{
+	position: absolute;
+	right: 0;
+	top: 60px;
+	width: 381px;
+	height: 364px;
+	padding: 22px 0 0 39px;
+	background-color: #fff;
+}
+.login_tab_list ul li{
+	float: left;
+	width: 154px;
+	height: 30px;
+	padding-left: 10px;
+	line-height: 30px;
+	font-size: 18px;
+}
+.login_tab_list ul li:first-child{
+	border-right: 1px solid #ededed;
+	
+}
+.login_tab_list ul li:last-child{
+	padding-left: 65px;
+}
+.login_tab_con{
+	width: 304px;
+	height: 286px;
+	margin-top: 20px;
+}
+.login_item p{
+	height: 26px;
+	padding-left: 8px;
+	margin-bottom: 10px;
+	line-height: 26px;
+	font-size: 12px;
+	background-color: #fffdee;
+	border: 1px solid #f5eecf;
+}
+.login_item ul li{
+	height: 36px;
+	line-height: 36px;
+	margin-bottom: 17px;
+}
+.login_item ul li:nth-child(-n+2){
+	border: 1px solid #bbbaba;
+}
+.login_item ul li label{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	margin-right: 11px;
+}
+.login_item ul li label img{
+	vertical-align: top;
+}
+.selected{
+	border: 1px solid #3aa2e4!important;
+}
+.login_item ul .forget{
+	height: 20px;
+	line-height: 20px;
+}
+.forget input{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	
+}
+.forget a{
+	float: right;
+	color: #333333;
+}
+.login_btn input{
+	display: inline-block;
+	width: 303px;
+	height: 41px;
+	background-color: #c81623;
+	color: #fff;
+}
+.login_item .share a{
+	color: #1474af;
+}
+.mod_copyright {
+	padding: 21px 0 0 70px;
+	text-align: center;
+}
+
+.mod_copyright ul {
+	overflow: hidden;
+}
+
+.mod_copyright ul li {
+	float: left;
+}
+
+.mod_copyright ul li a {
+	display: block;
+	border-right: 1px solid #999999;
+	padding: 0 15px;
+
+}
+
+.mod_copyright ul .lastLi a {
+	border-right: 0;
+}
+
+.mod_copyright .copyright {
+	margin-top: 10px;
+	line-height: 20px;
+}

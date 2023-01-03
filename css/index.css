@@ -1,0 +1,819 @@
+/* main模块 */
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 220px;
+	margin-top: 10px;
+
+}
+
+.main .focus {
+	position: relative;
+	float: left;
+	width: 720px;
+	height: 455px;
+}
+
+.prev,
+.next {
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	width: 20px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	background: rgba(0, 0, 0, .3);
+}
+
+.focus .prev {
+	left: 0;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.focus .next {
+	right: 0;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.focus .promo-nav {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -35px;
+	width: 70px;
+	height: 13px;
+	background-color: rgba(255, 255, 255, .3);
+	border-radius: 6px;
+}
+
+.focus .promo-nav li {
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin: 3px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.focus .promo-nav li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.focus .promo-nav li a:hover {
+	background-color: orange;
+}
+
+
+.main .newsflash {
+	float: right;
+	width: 250px;
+	height: 455px;
+}
+
+.newsflash .news {
+	height: 163px;
+	border: 1px solid #e4e4e4;
+}
+
+.news .news-hd {
+	height: 33px;
+	padding-left: 16px;
+	line-height: 33px;
+	border-bottom: 1px dashed #e4e4e4;
+}
+
+.newsflash .news h3 {
+	float: left;
+	font-size: 14px;
+	font-weight: 400;
+
+}
+
+.newsflash .news .more {
+	float: right;
+	padding-right: 16px;
+}
+
+.newsflash .news .more::after {
+	content: '\e922';
+	font-family: 'icomoon';
+	padding-left: 5px;
+}
+
+.news .news-bd {
+	height: 130px;
+	padding: 8px 0 0 17px;
+}
+
+.news-bd ul li {
+	height: 23px;
+	line-height: 23px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.news-bd ul li span {
+	font-weight: 700;
+}
+
+.newsflash .lifeservice {
+	height: 210px;
+	border-left: 1px solid #e4e4e4;
+	/* background-color: red; */
+}
+
+.lifeservice ul li {
+	float: left;
+	width: 25%;
+	height: 70px;
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: center;
+}
+
+.lifeservice ul li a {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 10px;
+}
+
+.lifeservice ul li a em {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.lifeservice ul li a i {
+	display: inline-block;
+	width: 22px;
+	height: 25px;
+	text-align: center;
+	background: url('../images/icons.png') no-repeat -19px -16px;
+}
+
+.newsflash .bargain {
+	height: 75px;
+	margin-top: 8px;
+	background-color: purple;
+}
+
+
+/* 推荐模块 */
+.recom {
+	height: 162px;
+	margin-top: 10px;
+}
+
+.recom .recom-hd {
+	float: left;
+	width: 206px;
+	height: 162px;
+}
+
+.recom .recom-bd {
+
+	float: left;
+	width: 994px;
+	height: 162px;
+	background-color: #ebebeb;
+}
+
+.recom-bd ul li {
+	position: relative;
+	float: left;
+}
+
+.recom-bd ul li img {
+	width: 248px;
+	height: 163px;
+}
+
+.recom .recom-bd ul li:nth-child(-n+3)::after {
+	position: absolute;
+	content: '';
+	top: 10px;
+	right: 0;
+	width: 1px;
+	height: 145px;
+
+	background-color: #ddd;
+}
+
+
+/* box模块 */
+.box {
+	height: 269px;
+	margin-top: 26px;
+}
+
+.boxhd {
+	height: 33px;
+	line-height: 33px;
+}
+
+.boxhd .like {
+	float: left;
+	/* 需要设置float，不然h3会独占一行*/
+	font-size: 18px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.boxhd a {
+	float: right;
+	font-size: 12px;
+}
+
+.boxhd a::after {
+	font-family: 'icomoon';
+	content: '\ea2e';
+	padding-left: 8px;
+	font-size: 13px;
+}
+
+.boxbd {
+	height: 232px;
+	border: 1px solid #ededed;
+}
+
+.boxbd ul {
+	width: 1204px;
+	height: 232px;
+}
+
+.boxbd ul li {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 232px;
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+.boxbd ul li:nth-child(-n+5)::after {
+	position: absolute;
+	content: '';
+	right: 0;
+	top: 161px;
+	width: 1px;
+	height: 62px;
+
+	background-color: #ededed;
+}
+
+.boxbd ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.boxbd ul li a i {
+	display: inline-block;
+	width: 160px;
+	height: 140px;
+	line-height: 140px;
+}
+
+/* 如果图片高度宽度不一致，可以用i包着，然后垂直居中，父级水平居中 */
+
+.boxbd ul li a .proInfo {
+	text-align: left;
+	padding-left: 37px;
+}
+
+/* 因为父级水平居中,所以得套个盒子,让里面的内容不居中,设padding-left */
+.boxbd ul li a h3 {
+	font-size: 12px;
+	font-weight: 400;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.boxbd ul li a .price {
+	font-size: 18px;
+	color: #df3033;
+	font-weight: 700;
+}
+
+.boxbd ul li a .price span {
+	font-size: 15px;
+}
+
+
+/* blog模块 */
+/* blog common模块 */
+.style_fonts {
+	position: relative;
+	height: 38px;
+	line-height: 38px;
+	color: #333;
+}
+
+.style_fonts::after {
+	position: absolute;
+	bottom: 0;
+	left: 18px;
+	content: '';
+	width: 192px;
+	height: 1px;
+	background-color: #ededed;
+}
+
+/* 小竖线需要放在下边框，所以需要用绝对定位，如果不用的话，它会出现在h3的左边*/
+
+.firstPic {
+	height: 207px;
+	line-height: 207px;
+	border-bottom: 1px solid #ededed;
+}
+
+.secondPic {
+	height: 158px;
+	padding-top: 14px;
+}
+
+.blog {
+	height: 441px;
+	margin-top: 25px;
+}
+
+.blog .bloghd {
+	height: 35px;
+	line-height: 35px;
+}
+
+.blog .bloghd h3 {
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+}
+
+.blog .blogbd {
+	height: 407px;
+}
+
+.blogbd .seller {
+	float: left;
+	width: 407px;
+	height: 407px;
+}
+
+.blogbd .seller img {
+	width: 100%;
+	height: 100%;
+}
+
+.blog .recomPic {
+	float: left;
+	width: 793px;
+	border: 1px solid #ededed;
+	border-left: 0;
+}
+
+.goods,
+.brandgoods {
+	border-right: 1px solid #ededed;
+}
+
+.recomPic .goods {
+	float: left;
+	width: 226px;
+	text-align: center;
+}
+
+.recomPic .goods ul li {
+	padding-left: 10px;
+}
+
+.recomPic .goods ul a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.recomPic .brandgoods {
+	float: left;
+	width: 405px;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+.brandgoods .style_fonts::after {
+	width: 371px;
+}
+
+.brandgoods .secondPic {
+	padding-top: 0;
+}
+
+.brandgoods .secondPic a {
+	float: left;
+	width: 202px;
+	height: 160px;
+
+	padding-top: 28px;
+	padding-left: 10px;
+}
+
+.brandgoods .secondPic a img {
+	width: 191px;
+	height: 132px;
+}
+
+.brandgoods .secondPic a:first-child {
+	border-right: 1px solid #ededed;
+	/* padding-top: 28px; */
+}
+
+.brandgoods .secondPic a:nth-child(2) {
+	/* padding-left: 25px; */
+}
+
+.blogbd .brands {
+	float: left;
+	width: 161px;
+	height: 405px;
+}
+
+.blogbd .brands img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* floor楼层模块 */
+.floor .wrapper {
+	margin-top: 24px;
+}
+
+.floor .box_hd {
+	height: 33px;
+	line-height: 31px;
+	border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+	float: left;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.box_hd .tab_list {
+	float: right;
+}
+
+/* 不能单独写li的float：right,不然所有li会反过来。
+应该ul写float：right，li写float: left; */
+.tab_list ul li {
+	float: left;
+}
+
+.tab_list ul li a {
+	border-right: 1px solid #999999;
+	padding: 0 15px;
+}
+
+.tab_list ul li a.lastChild {
+	border: 0;
+}
+
+.box_bd {
+	height: 360px;
+	margin-bottom: 20px;
+}
+
+.tab_list_item>div {
+	float: left;
+	height: 360px;
+}
+
+.col_210 {
+	width: 210px;
+	background-color: #f9f9f9;
+	text-align: center;
+}
+
+.col_210 ul {
+	margin-left: 10px;
+}
+
+.col_210 ul li {
+	float: left;
+	height: 33px;
+	width: 86px;
+	line-height: 33px;
+
+	margin-right: 10px;
+	border-bottom: 1px solid #ededed;
+}
+
+.col_210 ul li a {
+	display: block;
+}
+
+.col_210 i {
+	display: inline-block;
+	width: 212px;
+	height: 261px;
+	line-height: 261px;
+}
+
+.col_329 {
+	position: relative;
+	width: 329px;
+}
+
+.col_329 .product-nav {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -23px;
+	width: 50px;
+	height: 12px;
+	margin-bottom: 16px;
+}
+
+.col_329 .product-nav li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-right: 7px;
+	border-radius: 50%;
+	background-color: #3e3e3e;
+}
+
+.col_329 .product-nav li:nth-child(3) {
+	margin-right: 0;
+}
+
+.col_329 .product-nav li a {
+	display: block;
+	height: 12px;
+	border-radius: 50%;
+}
+
+.col_329 .product-nav li a:hover {
+	background-color: #fff;
+}
+
+.col_329 ul li {
+	height: 360px;
+}
+
+.col_329 ul li a {
+	display: block;
+	height: 100%;
+}
+
+.col_329 ul li a img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.col_221 {
+	width: 221px;
+	background-color: #fff;
+}
+
+.col_221and219 li {
+	width: 221px;
+	height: 180px;
+	line-height: 180px;
+	padding: 9px 0 0 19px;
+}
+
+.col_221and219 li {
+	border: 0;
+	border-right: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+}
+
+.col_221and219 li a {
+	display: block;
+	height: 100%;
+}
+
+.col_221and219 li a img {
+	width: 200px;
+	height: 155px;
+}
+
+.col_220 {
+	width: 220px;
+	line-height: 360px;
+	text-align: center;
+	background-color: #fff;
+}
+
+.col_220 a {
+	display: block;
+	height: 100%;
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+}
+
+.col_219 {
+	width: 220px;
+	background-color: #fff;
+}
+
+
+/* 热门疯抢模块 */
+.snapup {
+	height: 320px;
+	margin-top: 20px;
+	margin-bottom: 38px;
+}
+
+.hot_hd {
+	height: 40px;
+	line-height: 40px;
+}
+
+.hot_hd h3 {
+	font-size: 18px;
+	color: #333333;
+	font-weight: 400;
+}
+
+.hot_bd {
+	height: 280px;
+	border: 1px solid #ededed;
+}
+
+.hot_bd .vrPro {
+	float: left;
+	width: 238px;
+	height: 280px;
+	border-right: 1px solid #ededed;
+
+}
+.vrPro a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.vrPro i {
+	display: block;
+	width: 241px;
+	height: 187px;
+	line-height: 187px;
+	text-align:center;
+}
+/* 可以设line-height，里面只有一个标签 */
+
+.vrPro .proInfo{
+	height: 76px;
+	margin-top: 15px;
+	padding: 0 30px;
+}
+/* 不可以设line-height，因为里面有两个不同标签，
+只能调整paddingヘmargin，让里面垂直居中 */
+
+.proInfo h3{
+	font-weight: 400;
+	color: #333;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.proInfo .price{
+	font-size: 16px;
+	font-weight: 700;
+}
+.hot_bd .morePro {
+	float: left;
+	width: 660px;
+	height: 280px;
+}
+.morePro ul li{
+	float: left;
+	width: 220px;
+	height: 140px;
+	border-right: 1px solid #ededed;
+}
+.morePro ul li:nth-child(-n+3){
+	border-bottom: 1px solid #ededed;
+}
+.morePro ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 18px 10px;
+}
+.morePro ul li a img{
+	float: left;
+	width: 102px;
+	height: 97px;
+	margin-right: 3px;
+}
+.morePro ul li a h3{
+	line-height: 20px;
+	font-weight: 400;
+}
+.morePro ul li a .price{
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.hot_bd .reviewPro {
+	float: left;
+	width: 299px;
+	height: 280px;
+}
+.reviewPro ul li{
+	width: 299px;
+	height: 140px;
+	padding-top: 20px;
+}
+.reviewPro ul li a{
+	float: left;
+	width: 118px;
+	height: 108px;
+}
+.reviewPro ul li a em{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 108px;
+	text-align: center;
+}
+
+.comment{
+	float: left;
+	width: 180px;
+	height: 109px;
+}
+.reviewPro ul li .comment a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.comment .profile{
+	height: 36px;
+}
+.profile img{
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.comment .review{
+	position: relative;
+	width: 171px;
+	height: 59px;
+	background-color: #f8f8f8;
+	padding: 10px 10px 10px 23px;
+}
+.review .triangle{
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	left: -16px;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+	border: 8px solid transparent;
+	border-right: 8px solid #f8f8f8;
+}
+.review::before{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	font-family: icomoon;
+	content: '\e977';
+	color: #aaaab8;
+}
+.review::after{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-family: icomoon;
+	content: '\e978';
+	color: #aaaab8;
+}
+.review .reviewPara{
+	display: inline-block;
+	width: 127px;
+	height: 37px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
